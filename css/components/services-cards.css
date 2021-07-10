@@ -1,12 +1,7 @@
 .services-cards {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 400px;
   height: 150px;
   text-align: center;
-  margin-right: 150px;
-  margin-bottom: 80px;
 
   font-family: 'Raleway', sans-serif;
   color: var(--White);
@@ -15,5 +10,19 @@
 .services-cards h2 {
   font-size: 25px;
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.services-cards.-first {
+  margin-right: 150px;
+  margin-bottom: 150px;
+}
+
+.services-cards.-second {
+  margin-bottom: 150px;
+}
+
+.services-cards.-third {
+  margin-right: 150px;
 }
