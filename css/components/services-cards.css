@@ -1,0 +1,19 @@
+.services-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 150px;
+  text-align: center;
+  margin-right: 150px;
+  margin-bottom: 80px;
+
+  font-family: 'Raleway', sans-serif;
+  color: var(--White);
+}
+
+.services-cards h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 20px;
+}
