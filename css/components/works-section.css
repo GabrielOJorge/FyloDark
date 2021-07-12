@@ -1,0 +1,37 @@
+.works-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--DarkBlue2);
+
+  font-family: 'Open Sans', sans-serif;
+  color: var(--White);
+}
+
+.works-section .txt {
+  display: block;
+  width: 600px;
+}
+
+.works-section img {
+  margin-right: 60px;
+}
+
+.works-section h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.works-section p {
+  margin-bottom: 20px;
+}
+
+.works-section a {
+  line-height: 10px;
+  color: var(--Cyan);
+}
+
+
