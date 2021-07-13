@@ -1,5 +1,5 @@
 .main-footer {
-  display: flex;
+  display: block;
   height: 400px;
   background-color: var(--DarkBlue3);
 }
@@ -7,4 +7,5 @@
 .main-footer .logo {
   width: 10%;
   height: 10%;
+  margin-bottom: 50px;
 }

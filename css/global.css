@@ -11,8 +11,10 @@
 
 body {
     background-color: var(--DarkBlue1);
+    color: var(--White);
 }
 
 p {
+    font-family: 'Open Sans', sans-serif;
     line-height: 25px;
 }
