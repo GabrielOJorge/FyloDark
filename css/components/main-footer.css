@@ -1,3 +1,10 @@
 .main-footer {
   display: flex;
+  height: 400px;
+  background-color: var(--DarkBlue3);
+}
+
+.main-footer .logo {
+  width: 10%;
+  height: 10%;
 }
