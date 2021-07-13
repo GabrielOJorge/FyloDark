@@ -1,11 +1,13 @@
 .main-footer {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 400px;
   background-color: var(--DarkBlue3);
 }
 
 .main-footer .logo {
-  width: 10%;
-  height: 10%;
+  max-width: 20%;
+  max-height: 20%;
   margin-bottom: 50px;
 }

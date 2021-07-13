@@ -14,3 +14,21 @@
   top: 6px;
   margin-right: 25px;
 }
+
+.footer-info .email-phone {
+  display: flex;
+  align-items: center;
+}
+
+.footer-info .email-phone img {
+  margin-right: 25px;
+}
+
+.email-phone .email-phone.-email {
+  margin-top: 20px;
+}
+
+.footer-info a {
+  text-decoration: none;
+  color: #fff;
+}
