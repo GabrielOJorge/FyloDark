@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 150px;
   background-color: var(--DarkBlue2);
 
   font-family: 'Open Sans', sans-serif;
@@ -10,11 +11,8 @@
 
 .works-section .txt {
   display: block;
-  width: 600px;
-}
-
-.works-section img {
-  margin-right: 60px;
+  width: 550px;
+  margin-left: 60px;
 }
 
 .works-section h2 {
@@ -30,8 +28,25 @@
 }
 
 .works-section a {
-  line-height: 10px;
+  text-decoration: none;
   color: var(--Cyan);
 }
 
+.fylo-works {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--Cyan);
+  transition: border .5s ease;
+  transition: color .5s ease;
+}
 
+.fylo-works img {
+  margin-left: 5px;
+} 
+
+.fylo-works:hover {
+  border-bottom: 1px solid var(--White);
+  color: var(--White);
+}

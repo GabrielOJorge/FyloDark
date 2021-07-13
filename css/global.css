@@ -12,3 +12,7 @@
 body {
     background-color: var(--DarkBlue1);
 }
+
+p {
+    line-height: 25px;
+}
