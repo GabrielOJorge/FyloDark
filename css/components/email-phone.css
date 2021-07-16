@@ -1,0 +1,12 @@
+.email-phone {
+  display: flex;
+  align-items: center;
+}
+
+.email-phone img {
+  margin-right: 25px;
+}
+
+.email-phone.-email {
+  margin-top: 20px;
+}

@@ -6,7 +6,8 @@
 .footer-info .location {
   display: flex;
   align-items: flex-start;
-  width: 400px;
+  width: 361px;
+  margin-right: 150px;
 }
 
 .footer-info .location img {
@@ -15,20 +16,11 @@
   margin-right: 25px;
 }
 
-.footer-info .email-phone {
-  display: flex;
-  align-items: center;
-}
-
-.footer-info .email-phone img {
-  margin-right: 25px;
-}
-
-.email-phone .email-phone.-email {
-  margin-top: 20px;
-}
-
 .footer-info a {
   text-decoration: none;
   color: #fff;
+}
+
+.footer-info .contact {
+  margin-right: 150px;
 }

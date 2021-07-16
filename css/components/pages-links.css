@@ -1,0 +1,20 @@
+.pages-links {
+  display: flex;
+  flex-direction: column;
+}
+.pages {
+  transition: font-weight ease-in-out;
+}
+
+.pages:hover {
+  font-weight: 700;
+}
+
+.pages.-margin {
+  margin-bottom: 20px;
+}
+
+.pages-links.-first {
+  margin-right: 150px;
+}
+
