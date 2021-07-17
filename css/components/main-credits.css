@@ -1,0 +1,12 @@
+.main-credits {
+  display: flex;
+  justify-content: center;
+  background-color: var(--DarkBlue3);
+  padding-bottom: 20px;
+}
+
+.main-credits a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+}
