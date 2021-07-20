@@ -1,0 +1,46 @@
+.main-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 710px;
+  padding: 40px 120px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px var(--DarkBlue3);
+  background-color: var(--DarkBlue1);
+}
+
+.main-form h2 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.main-form p {
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+}
+
+#email {
+  display: block;
+  width: 650px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 20px;
+  border-radius: 50px;
+  border-style: none;
+}
+
+input[type="submit"] {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, var(--Cyan), var(--Blue));
+  border-radius: 50px;
+  border-style: none;
+  padding: 15px 30px;
+  color: #fff;
+  font-weight: 700;
+}

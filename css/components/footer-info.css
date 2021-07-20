@@ -1,6 +1,7 @@
 .footer-info {
   display: flex;
   align-items: baseline;
+  align-content: center;
 }
 
 .footer-info .location {

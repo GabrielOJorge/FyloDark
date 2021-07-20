@@ -1,5 +1,7 @@
 .social-media {
   display: flex;
+  position: relative;
+  top: 15px;
 }
 
 .icon {
